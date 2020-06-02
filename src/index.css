@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.containerButtonsTop{
+  margin-top: 20px;
+}
+
+.containerButtonsTop button{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.containerMarket{
+  padding: 10px;
+  border: 1px solid silver;
+  margin-top: 20px;
+  overflow-y: auto;
+  height: 312px;
+}
+
+.magicIcon{
+  width:15px;
+  margin-top:2px;
+}
+
+.containerPlayerInfo{
+  border: 1px solid silver;
+  padding: 10px;
+}
+
+.containerMarketInn{
+  border-bottom: 1px solid silver;
+  padding-bottom: 12px;
+}
+
+.marketInfo div,
+.playerInfo div{
+  margin-bottom: 0px;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+}
+
+.robotImageShake{
+  animation: shake 0.3s;
+  animation-iteration-count: infinite;
+}
+
+.attackButton{
+  border-radius: 50px;
+  height: 50px;
+  width: 50px !important;
+  border: 0;
+}
+
+.hit{
+  position: relative;
+  left: 100px;
+  top: 100px;
+  width: 100%;
+}
+
+.hit2{
+  visibility: hidden;
+  position: absolute;
+  left: 120px;
+  top: 140px;
+}
+
+.hitAttack{
+  animation: hitAttack 0.3s;
+}

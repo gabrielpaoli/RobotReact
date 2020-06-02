@@ -1,0 +1,30 @@
+[
+  {
+    "name":"Bronce Sword", 
+    "damage":6,
+    "price":2,
+    "type":0,
+    "id":0
+  },
+  {
+    "name":"Newby Paladin", 
+    "damage":12,
+    "price":4,
+    "type":1,
+    "id":1
+  },
+  {
+    "name":"Newby Orc", 
+    "damage":18,
+    "price":6,
+    "type":1,
+    "id":2
+  },
+  {
+    "name":"Newby Elf", 
+    "damage":24,
+    "price":8,
+    "type":1,
+    "id":3
+  }
+]
